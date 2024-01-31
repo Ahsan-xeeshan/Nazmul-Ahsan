@@ -71,7 +71,7 @@ const SecondContent = () => {
                     Download CV
                   </a>
                 </button>
-                <button className="font-pops uppercase text-base lg:text-2xl px-8 lg:px-16  py-2 lg:py-4 bg-white text-gray-900 rounded-full transition hover:drop-shadow-2xl">
+                <button className="font-pops uppercase w-[200px] lg:w-[350px] text-base lg:text-2xl px-8 lg:px-16  py-2 lg:py-4 bg-white text-gray-900 rounded-full transition hover:drop-shadow-2xl">
                   <Link spy={true} smooth={true} to="Portfolio">
                     My Works
                   </Link>
