@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaFacebookF, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
@@ -18,7 +19,7 @@ const Footer = () => {
               </Link>
               <div>
                 <p className="pl-6 text-wrap text-xl mt-4 font-pops w-[350px] lg:w-[700px] uppercase font-bold">
-                  Passionate, creative & team player
+                  Building Tomorrow's Web Today: Passion, Precision, Progress
                 </p>
               </div>
               <div className="flex gap-5 pl-6 py-5">

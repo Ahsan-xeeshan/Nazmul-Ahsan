@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useGSAP } from "@gsap/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,15 +45,27 @@ const About = () => {
           <div data-aos="fade-down">
             {" "}
             <p className="text-base lg:text-2xl font-robs font-normal w-[280px] lg:w-[1100px] mx-auto pt-16 transition-all">
-              As a junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, Bootstrap, jQuery, SASS,
-              React, and Tailwind. I excel in designing and maintaining
-              responsive websites that offer a smooth user experience. My
-              expertise lies in crafting dynamic, engaging interfaces through
-              writing clean and optimized code and utilizing cutting-edge
-              development tools and techniques. I am also a team player who
-              thrives in collaborating with cross-functional teams to produce
-              outstanding web applications.
+              As a junior Front-End Developer, I bring to the table a robust set
+              of skills encompassing HTML, CSS, JavaScript, Bootstrap, jQuery,
+              SASS, React, and Tailwind. My proficiency extends to designing and
+              maintaining responsive websites that ensure a seamless user
+              experience. I specialize in creating dynamic and engaging
+              interfaces, achieved through the meticulous crafting of clean and
+              optimized code. Leveraging cutting-edge development tools and
+              techniques is second nature to me.
+            </p>
+            <p className="text-base lg:text-2xl font-robs font-normal w-[280px] lg:w-[1100px] mx-auto pt-16 transition-all">
+              My approach is not just about writing code; it's about
+              transforming ideas into visually appealing and functional web
+              experiences. I thrive on the challenge of combining creativity
+              with technical precision to deliver top-notch results.
+            </p>
+            <p className="text-base lg:text-2xl font-robs font-normal w-[280px] lg:w-[1100px] mx-auto pt-16 transition-all">
+              In addition to my technical capabilities, I pride myself on being
+              a collaborative team player. I excel in working with
+              cross-functional teams, contributing my skills to produce
+              outstanding web applications. My commitment is to not only meet
+              but exceed expectations in every project I undertake.
             </p>
           </div>{" "}
           <div ref={container}>
