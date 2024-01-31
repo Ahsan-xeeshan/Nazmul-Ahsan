@@ -23,17 +23,17 @@ const Footer = () => {
               </div>
               <div className="flex gap-5 pl-6 py-5">
                 <div className="w-[50px] h-[50px] transition-all duration-300 rounded-full flex justify-center items-center bg-gray-400 cursor-pointer hover:bg-blue-500 hover:text-white">
-                  <a href="facebook.com">
+                  <a href="https://www.facebook.com/xeeshan.peripatetic/">
                     <FaFacebookF className="text-2xl" />
                   </a>
                 </div>
                 <div className="w-[50px] h-[50px] transition-all duration-300 rounded-full flex justify-center items-center bg-gray-400 cursor-pointer hover:bg-black hover:text-white">
-                  <a href="facebook.com">
+                  <a href="https://twitter.com/XeeshanAhsan">
                     <FaXTwitter className="text-2xl" />
                   </a>
                 </div>
                 <div className="w-[50px] h-[50px] transition-all duration-300 rounded-full flex justify-center items-center bg-gray-400 cursor-pointer hover:bg-[#136BC5] hover:text-white">
-                  <a href="facebook.com">
+                  <a href="https://www.linkedin.com/in/nazmul-ahsan-14a953133/">
                     <FaLinkedinIn className="text-2xl" />
                   </a>
                 </div>
