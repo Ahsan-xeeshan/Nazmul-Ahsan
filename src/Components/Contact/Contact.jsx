@@ -41,140 +41,146 @@ export const Contact = () => {
         </h3>
       </div>
       <div className="lg:flex mt-[100px] py-[50px]">
-        <div className="lg:w-1/2 px-2 lg:px-0" data-aos="fade-right">
-          {" "}
-          <h4 className="text-3xl lg:text-5xl font-medium">Let's Talk</h4>
-          <div className="py-10">
-            <p className="text-xl font-robo uppercase">
-              I am available to talk with you on mentioned below platforms.
-            </p>
+        <div className="lg:w-1/2 px-2 lg:px-0">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            {" "}
+            <h4 className="text-3xl lg:text-5xl font-medium">Let's Talk</h4>
+            <div className="py-10">
+              <p className="text-xl font-robo uppercase">
+                I am available to talk with you on mentioned below platforms.
+              </p>
 
-            <div className="mt-6">
-              <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
-                <div>
-                  <FaPhoneAlt className="text-2xl" />
+              <div className="mt-6">
+                <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
+                  <div>
+                    <FaPhoneAlt className="text-2xl" />
+                  </div>
+                  <div>
+                    <p className="text-2xl">+8801775-647344</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-2xl">+8801775-647344</p>
+                <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
+                  <div>
+                    <IoMail className="text-2xl" />
+                  </div>
+                  <div>
+                    <p className="text-xl lg:text-2xl">
+                      nazmulahsanxeeshan@gmail.com
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
-                <div>
-                  <IoMail className="text-2xl" />
+                <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
+                  <div>
+                    <FaFacebookF className="text-2xl" />
+                  </div>
+                  <div>
+                    <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xl lg:text-2xl">
-                    nazmulahsanxeeshan@gmail.com
-                  </p>
+                <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
+                  <div>
+                    <FaXTwitter className="text-2xl" />
+                  </div>
+                  <div>
+                    <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
-                <div>
-                  <FaFacebookF className="text-2xl" />
-                </div>
-                <div>
-                  <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
-                </div>
-              </div>
-              <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
-                <div>
-                  <FaXTwitter className="text-2xl" />
-                </div>
-                <div>
-                  <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
-                </div>
-              </div>
-              <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
-                <div>
-                  <FaLinkedin className="text-2xl" />
-                </div>
-                <div>
-                  <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
+                <div className="flex gap-3 justify-start items-center mt-5 text-gray-500">
+                  <div>
+                    <FaLinkedin className="text-2xl" />
+                  </div>
+                  <div>
+                    <p className="text-2xl">Nazmul Ahsan Xeeshan</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 px-2 lg:px-0" data-aos="fade-left">
-          <h4 className="text-3xl lg:text-5xl font-medium mb-4">Say Hello!</h4>
+        <div className="lg:w-1/2 px-2 lg:px-0">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <h4 className="text-3xl lg:text-5xl font-medium mb-4">
+              Say Hello!
+            </h4>
 
-          <Card>
-            <CardContent>
-              <form ref={form} onSubmit={sendEmail}>
-                <Grid container spacing={1}>
-                  <Grid xs={12} sm={6} item>
-                    <TextField
-                      label="Name"
-                      placeholder="Enter your name"
-                      variant="outlined"
-                      fullWidth
-                      name="from_name"
-                      margin="normal"
-                    />
-                  </Grid>
-                  <Grid xs={12} sm={6} item>
-                    <TextField
-                      label="Email"
-                      type="email"
-                      placeholder="Enter your email"
-                      variant="outlined"
-                      fullWidth
-                      name="from_email"
-                      margin="normal"
-                    />
-                  </Grid>
-                  <Grid xs={12} sm={6} item>
-                    <TextField
-                      label="Company"
-                      type="text"
-                      placeholder="Enter your company name"
-                      variant="outlined"
-                      fullWidth
-                      margin="normal"
-                    />
-                  </Grid>
-                  <Grid xs={12} sm={6} item>
-                    <TextField
-                      label="Phone Number"
-                      type="number"
-                      placeholder="Enter your phone number"
-                      variant="outlined"
-                      fullWidth
-                      margin="normal"
-                    />
-                  </Grid>
+            <Card>
+              <CardContent>
+                <form ref={form} onSubmit={sendEmail}>
+                  <Grid container spacing={1}>
+                    <Grid xs={12} sm={6} item>
+                      <TextField
+                        label="Name"
+                        placeholder="Enter your name"
+                        variant="outlined"
+                        fullWidth
+                        name="from_name"
+                        margin="normal"
+                      />
+                    </Grid>
+                    <Grid xs={12} sm={6} item>
+                      <TextField
+                        label="Email"
+                        type="email"
+                        placeholder="Enter your email"
+                        variant="outlined"
+                        fullWidth
+                        name="from_email"
+                        margin="normal"
+                      />
+                    </Grid>
+                    <Grid xs={12} sm={6} item>
+                      <TextField
+                        label="Company"
+                        type="text"
+                        placeholder="Enter your company name"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                      />
+                    </Grid>
+                    <Grid xs={12} sm={6} item>
+                      <TextField
+                        label="Phone Number"
+                        type="number"
+                        placeholder="Enter your phone number"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                      />
+                    </Grid>
 
-                  <Grid xs={12} sm={12}>
-                    <TextField
-                      label="Message"
-                      type="message"
-                      multiline
-                      rows={6}
-                      placeholder="Write your message"
-                      variant="outlined"
-                      fullWidth
-                      name="message"
-                      margin="normal"
-                    />
+                    <Grid xs={12} sm={12}>
+                      <TextField
+                        label="Message"
+                        type="message"
+                        multiline
+                        rows={6}
+                        placeholder="Write your message"
+                        variant="outlined"
+                        fullWidth
+                        name="message"
+                        margin="normal"
+                      />
+                    </Grid>
                   </Grid>
-                </Grid>
-                <Grid>
-                  <Button
-                    variant="contained"
-                    endIcon={<SendIcon />}
-                    defaultValue={30}
-                    sx={{
-                      width: 200,
-                      height: 50,
-                      color: "success",
-                    }}
-                  >
-                    Send
-                  </Button>
-                </Grid>
-              </form>
-            </CardContent>
-          </Card>
+                  <Grid>
+                    <Button
+                      variant="contained"
+                      endIcon={<SendIcon />}
+                      defaultValue={30}
+                      sx={{
+                        width: 200,
+                        height: 50,
+                        color: "success",
+                      }}
+                    >
+                      Send
+                    </Button>
+                  </Grid>
+                </form>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </div>

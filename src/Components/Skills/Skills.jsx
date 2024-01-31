@@ -26,7 +26,7 @@ const Skills = () => {
           </h3>
         </div>
         <div
-          className=" flex justify-around items-center mt-8 flex-wrap "
+          className=" flex justify-between items-center mt-8 flex-wrap "
           data-aos="fade-up"
         >
           <div className="text-center">
