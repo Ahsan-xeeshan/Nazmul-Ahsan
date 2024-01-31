@@ -84,7 +84,9 @@ const Portfolio = () => {
               className="w-[400px] lg:w-[600px] rounded-md mb-4 h-auto mx-auto"
             />
             <div className="pl-5">
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 uppercase">
+                {project.title}
+              </h3>
               <p className="text-gray-600 w-[300px] lg:w-[580px]">
                 {project.description}
               </p>
