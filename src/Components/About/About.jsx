@@ -44,15 +44,15 @@ const About = () => {
           <div data-aos="fade-down">
             {" "}
             <p className="text-base lg:text-2xl font-robs font-normal w-[280px] lg:w-[1100px] mx-auto pt-16 transition-all">
-              As a junior Front-End Developer, I possesses an impresive arsenal
-              of skills in HTML, CSS, JavaScript, Bootstrap,Jquery, SASS, React
-              & Tailwind. I excel in designing and maintaining responsive
-              websites that after a smooth user experience. My expertise lies in
-              crafting dynamic, engaging interfaces through writing clean and
-              optimized code and utilizing cutting-edge development tools and
-              techniques. I am also a team player who thrives in collaborating
-              with cross-functional teams to produce outstanding web
-              applications.
+              As a junior Front-End Developer, I possess an impressive arsenal
+              of skills in HTML, CSS, JavaScript, Bootstrap, jQuery, SASS,
+              React, and Tailwind. I excel in designing and maintaining
+              responsive websites that offer a smooth user experience. My
+              expertise lies in crafting dynamic, engaging interfaces through
+              writing clean and optimized code and utilizing cutting-edge
+              development tools and techniques. I am also a team player who
+              thrives in collaborating with cross-functional teams to produce
+              outstanding web applications.
             </p>
           </div>{" "}
           <div ref={container}>
