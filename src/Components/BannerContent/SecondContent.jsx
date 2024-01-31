@@ -65,13 +65,13 @@ const SecondContent = () => {
               iteration="1"
               fillMode="none"
             >
-              <div className="flex gap-8 items-center text-center justify-center mt-16">
-                <button className="font-pops w-[200px] lg:w-[350px] uppercase text-base lg:text-2xl px-5 lg:px-16 py-2 lg:py-4 bg-gray-900 text-white rounded-full transition hover:drop-shadow-2xl">
+              <div className="flex gap-4 lg:gap-8 items-center text-center justify-center mt-16">
+                <button className="font-pops w-[170px] lg:w-[350px] uppercase text-base lg:text-2xl px-5 lg:px-16 py-2 lg:py-4 bg-gray-900 text-white rounded-full transition hover:drop-shadow-2xl">
                   <a href={resume} download="Resume">
                     Download CV
                   </a>
                 </button>
-                <button className="font-pops uppercase w-[200px] lg:w-[350px] text-base lg:text-2xl px-8 lg:px-16  py-2 lg:py-4 bg-white text-gray-900 rounded-full transition hover:drop-shadow-2xl">
+                <button className="font-pops uppercase w-[170px] lg:w-[350px] text-base lg:text-2xl px-8 lg:px-16  py-2 lg:py-4 bg-white text-gray-900 rounded-full transition hover:drop-shadow-2xl">
                   <Link spy={true} smooth={true} to="Portfolio">
                     My Works
                   </Link>
