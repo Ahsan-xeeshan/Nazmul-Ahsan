@@ -47,7 +47,8 @@ export const Contact = () => {
             <h4 className="text-3xl lg:text-5xl font-medium">Let's Talk</h4>
             <div className="py-10">
               <p className="text-xl font-robo uppercase">
-                I am available to talk with you on mentioned below platforms.
+                I AM AVAILABLE TO TALK WITH YOU ON THE PLATFORMS MENTIONED
+                BELOW.
               </p>
 
               <div className="mt-6">
