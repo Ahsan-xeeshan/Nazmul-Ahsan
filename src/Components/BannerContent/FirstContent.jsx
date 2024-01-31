@@ -17,7 +17,7 @@ const FirstContent = () => {
               iteration="1"
               fillMode="none"
             >
-              <h4 className="text-gray-900 font-pops font-semibold text-sm lg:text-[34px] lg:pb-6">
+              <h4 className="text-gray-900 font-pops font-semibold text-sm lg:text-[34px] mt-6 lg:mt-0 lg:pb-6">
                 Hello,
               </h4>
             </MovingText>
@@ -72,7 +72,7 @@ const FirstContent = () => {
             <img
               src={BannerMain}
               alt=""
-              className="w-[400px] lg:w-[800px] h-[300px] lg:h-[650px] lg:mt-10"
+              className="w-[240px] lg:w-[800px] h-[230px] lg:h-[650px]  mt-7 lg:mt-10"
             />
           </div>
         </div>
